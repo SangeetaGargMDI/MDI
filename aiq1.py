@@ -1,5 +1,5 @@
 from collections import Counter
-def min_distinct_elements_to_remove(arr):
+def min_distinct_elements_to_remove(n, arr):
     # Step 1: Count the frequency of each element
     frequency = Counter(arr)
 
